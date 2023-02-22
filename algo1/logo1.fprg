@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vladimir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-02-22 09:10:47 "/>
+        <attribute name="created" value="dmxhZGltaXI7TEFQVE9QLVBTUEhHMFA5OzIwMjMtMDItMjI7IjA4OjQ4OjM3ICI7MzEzNA=="/>
+        <attribute name="edited" value="dmxhZGltaXI7TEFQVE9QLVBTUEhHMFA5OzIwMjMtMDItMjI7IjA5OjEwOjQ3ICI7NTszMjM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="text" type="String" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a*a=b">
+                <then>
+                    <assign variable="text" expression="&quot;JA&quot;"/>
+                </then>
+                <else>
+                    <assign variable="text" expression="&quot;Nein&quot;"/>
+                </else>
+            </if>
+            <output expression="text" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
