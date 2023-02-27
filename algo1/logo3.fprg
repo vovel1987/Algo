@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vladimir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-02-27 01:56:57 "/>
+        <attribute name="created" value="dmxhZGltaXI7TEFQVE9QLVBTUEhHMFA5OzIwMjMtMDItMjc7IjAxOjQ1OjE5ICI7MzEyOQ=="/>
+        <attribute name="edited" value="dmxhZGltaXI7TEFQVE9QLVBTUEhHMFA5OzIwMjMtMDItMjc7IjAxOjU2OjU3ICI7MzszMjQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <input variable="N"/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <assign variable="index" expression="1"/>
+            <declare name="cube" type="Integer" array="False" size=""/>
+            <while expression="index &lt;= N">
+                <assign variable="cube" expression="index * index *index"/>
+                <if expression="cube % 2 ==0">
+                    <then>
+                        <output expression="cube" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="index" expression="index + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
